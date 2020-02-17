@@ -1,5 +1,5 @@
 mod cube;
 
 fn main() {
-    println!("Hello, world!");
+    cube::Cube::solved().print();
 }
